@@ -1,0 +1,341 @@
+body{
+    font-family: "Montserrat", serif;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.top-bar{
+    background-color: #0E5B30;
+    color: #fff;
+    padding: 10px ;
+    font-size: 16px;
+}
+.btn-clover{
+    color: #fff;
+    background-color: #00D35B;
+    border-radius: 50px;
+    font-weight: 600;
+    border: 1px solid #00D35B;
+    padding: 8px 30px;
+}
+.btn-clover:hover {
+    color: #00D35B;
+    background-color: #fff;
+    border: 1px solid #00D35B;
+    box-shadow: inset 0 0 0 2px #00D35B;
+}
+.navSection{
+    padding: 5px 0px;
+}
+.navbar-brand span{
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.nav-link{
+    font-weight: 500;
+    color: #000;
+}
+.heroSection{
+    position: relative;
+    background-image: url('../images/hero.png');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.heroSection img{
+    width: 100%;
+}
+.heroSection p {
+    font-size: larger;
+}
+.hero-action-section{
+    border-radius: 15px;
+    border: 1px solid #00D35B;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    background-color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 400px;
+    -moz-transform: translate(-50%, -70%);
+    -ms-transform: translate(-50%, -70%);
+    -webkit-transform: translate(-50%, -70%);
+    -o-transform: translate(-50%, -70%);
+    transform: translate(-50%, -70%);
+    box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+}
+.hero-action-section button{
+    box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+}
+.headingSection{
+    padding: 0px 0px 10px 0px;
+}
+.headingSection p{
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0E5B30;
+}
+.headingSection p::after {
+    content: "";
+    display: inline-block;
+    background-image: url('../images/headingArrow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+.headingSection h1 {
+    font-size: 50px;
+    color: #0E5B30;
+    font-weight: bold;
+}
+.headingSection h1 span{
+    color: #16171A;
+}
+.card{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    min-height: 325px;
+    margin: 12px 0px;
+}
+.card .icon{
+    background-color: #00D35B;
+    color: #fff;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.icon i{
+    font-size: 26px;
+}
+
+.card h5{
+    color: #034833;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.card p{
+    color: #727272;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+.card:hover {
+    border: 1px solid #00D35B;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+}
+.card:hover .icon {
+    background-color: #034833;
+}
+
+.relation{
+    border: 1px solid #00D35B; 
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 28px;
+    color: #034833;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+}
+
+.onlineLoan i{
+    color: #034833;
+    margin: 4px 10px 0px 0px;
+}
+
+.options{
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 15px;
+    height: 270px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    border: 1px solid #c2bfbf;
+}
+
+.options:hover {
+    border: 1px solid #00D35B;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+}
+
+.options i{
+    font-size: 32px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.options h3 {
+    font-size: 26px;
+    color: #034833;
+}
+
+.advantage{
+    background-color: #034833;
+    color: #fff;
+}
+
+.advantage i{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.advantage h3 {
+    margin-bottom: 20px;
+}
+
+.needs i{
+    color: #034833;
+    margin-top: 10px !important;
+}
+
+.needs p{
+    color: #034833;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.form{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.form label {
+    color: #034833;
+    font-size: 14px;
+}
+
+.form input{
+    margin-bottom: 20px;
+    border-radius: 50px;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.customer{
+    border: 1px solid #E3DBD8;
+    border-radius: 20px;
+    position: relative;
+    padding: 30px 40px;
+    width: 90%;
+    height: 180px;
+    margin-top: 50px;
+}
+
+.customer img{
+    position: absolute;
+    left: -30px;
+    top: 30px;
+    border-radius: 50px;
+    border: 1px solid #00D35B;
+    width: 60px;
+    height: 60px;
+}
+
+.customer p{
+    font-size: 14px;
+    font-style: italic;
+    color: #727272;
+}
+
+.customer span{
+    color: #034833;
+    font-size: 18px;
+}
+
+.footer{
+    background-color: #034833;
+    color: #fff;
+}
+
+.contactInfo{
+    border-bottom: 1px solid#E3DBD8;
+    padding-bottom: 15px
+}
+
+.contactInfo span{
+    background-color: #00D35B;
+    border-radius: 50%;
+    padding: 10px 15px;
+    color: #000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.contactInfo p{
+    margin: 0px 0px 0px 15px;
+    font-size: 20px;
+}
+
+.footerSection{
+    font-size: 10px;
+    text-align: justify;
+    font-weight: 200;
+}
+
+.footerSection .terms span {
+    font-weight: 400;
+}
+
+.custom-list li {
+    position: relative;
+    padding-left: 15px;
+}
+
+.custom-list li::before {
+    content: "›";
+    position: absolute;
+    left: 0;
+    top: -5px;
+    color: #00D35B;
+    font-size: 17px;
+}
+
+@media screen and (max-width:768px) {
+    .heroSection {
+        height: 50vh;
+    }
+    .top-bar{
+        text-align: center;
+    }
+    .relation {
+        margin-top: 20px;
+        box-shadow: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .relation {
+        width: 120%;
+        background-color: #fff;
+        padding: 40px;
+    }
+}
